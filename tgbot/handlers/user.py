@@ -7,4 +7,6 @@ user_router = Router()
 
 @user_router.message(CommandStart())
 async def user_start(message: Message):
-    await message.reply("Привет, я помогаю не зыбыть поздравить с днем рождения!")
+    await message.reply("Привет, я помогаю не зыбыть поздравить с днем рождения! Введи команду /menu")
+
+
